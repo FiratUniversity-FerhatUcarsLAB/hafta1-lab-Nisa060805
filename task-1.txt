@@ -1,4 +1,38 @@
-Öğrenci No:
-AD-SOYAD:
+Ogrenci No: 250541079
+Ad Soyad: Nisa Kirtepe
 
-Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Gorev 1: Gunluk Hayat Algoritmasi  
+Konu: En kisa surede universiteye gitme
+
+Problem Tanimi:
+Nisa her sabah universiteye giderken en kisa surede ulasmak istiyor. Hava durumuna ve trafik yogunluguna gore yuruyerek mi yoksa otobusle mi gidecegine karar vermesi gerekiyor. Amac, her sabah minimum sureyle universiteye varmak.
+
+Pseudocode:
+BASLA
+    HavaDurumu <- oku("hava nasil?")
+    TrafikDurumu <- oku("trafik yogun mu?")
+    
+    EGER HavaDurumu = "yagmurlu" ISE
+        Ulasim <- "otobus"
+    DEGILSE
+        EGER TrafikDurumu = "yogun" ISE
+            Ulasim <- "yuru"
+        DEGILSE
+            Ulasim <- "otobus"
+        BITIR
+    BITIR
+    
+    ZAMAN <- tahmin(Ulasim)
+    EKRANA YAZ("Universiteye " + ZAMAN + " dakikada varilir.")
+BITIR
+
+LLM (ChatGPT) Yardim Kayitlari:
+Soru: Gunluk hayattaki bir durumu algoritmaya nasil donusturebilirim?  
+Cevap: Once degiskenleri belirle (hava, trafik, sure vb.), sonra if-else kosullariyla karar adimlarini olustur.  
+Soru: Dongu kullanmali miyim?  
+Cevap: Eger bu islem her sabah tekrarlanacaksa, "HER GUN" dongusu kullanilabilir.
+
+Alternatif Cozumler:
+1. Sadece hava durumuna gore karar veren basit algoritma.  
+2. Trafik yogunlugunu ekleyip ortalama hiz uzerinden hesap yapan versiyon.  
+3. Gercek zamanli trafik verilerini kullanan gelismis versiyon.
