@@ -1,5 +1,5 @@
-Ogrenci No: 250541079
-Ad Soyad: Nisa Kirtepe
+Öğrenci No: 250541079
+AD-SOYAD: Nisa Kırtepe
 
 Gorev 1: Gunluk Hayat Algoritmasi  
 Konu: En kisa surede universiteye gitme
