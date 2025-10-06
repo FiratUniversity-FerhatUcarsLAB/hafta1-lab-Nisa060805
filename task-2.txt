@@ -1,4 +1,36 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No: 250541079
+Ad-Soyad: Nisa Kırtepe
 
-Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Gorev 2: Oyun Stratejisi Algoritmasi  
+Konu: Tic-Tac-Toe (X-O) Kazanma Stratejisi
+
+Problem Tanimi:
+Oyuncu X, her oyunda kazanmak veya en azindan beraber kalmak istiyor. Amac, optimal hamle siralamasini bulmak.
+
+Pseudocode:
+BASLA
+    Tahta <- bos tablo
+    OyunDevam <- TRUE
+
+    TEKRAR OyunDevam = TRUE IKEN
+        EGER kazanma_hamlesi_var(X)
+            hamle_yap(X, kazanma_hamlesi)
+        DEGILSE EGER engelleme_hamlesi_var(O)
+            hamle_yap(X, engelleme_hamlesi)
+        DEGILSE
+            orta_alani_veya_kose_sec(X)
+        BITIR
+        
+        EGER kazanan_var_mi()
+            OyunDevam <- FALSE
+        BITIR
+    SON
+BITIR
+
+LLM (ChatGPT) Yardim Kayitlari:
+Soru: Tic-Tac-Toe’da garantili strateji nasil kurulur?  
+Cevap: Ilk hamlede orta sec, sonrakilerde kazanma oncelikli oyna, aksi halde rakibi engelle.  
+
+Alternatif Cozumler:
+1. Ilk hamlede orta yerine koseleri tercih eden strateji.  
+2. Rakip hamlelerini once tahmin edip minimax algoritmasi kullanan versiyon (gelismis).
