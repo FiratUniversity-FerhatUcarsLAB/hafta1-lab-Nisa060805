@@ -1,5 +1,5 @@
 Öğrenci No: 250541079
-Ad-Soyad: Nisa Kırtepe
+AD-SOYAD: Nisa Kırtepe
 
 Gorev 2: Oyun Stratejisi Algoritmasi  
 Konu: Tic-Tac-Toe (X-O) Kazanma Stratejisi
