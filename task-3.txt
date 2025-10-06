@@ -1,4 +1,32 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250541079
+AD-SOYAD:Nisa Kırtepe
 
-Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Gorev 3: Veri Organizasyonu Algoritmasi  
+Konu: Telefon rehberini alfabetik siralama
+
+Problem Tanimi:
+Bir telefon rehberinde kayitli isimleri A’dan Z’ye siralamak istiyoruz.
+
+Pseudocode:
+BASLA
+    Rehber <- ["Zeynep", "Ahmet", "Mehmet", "Elif"]
+    N <- uzunluk(Rehber)
+
+    TEKRAR i = 0'dan N-1'e
+        TEKRAR j = i+1'den N'e
+            EGER Rehber[i] > Rehber[j]
+                takas(Rehber[i], Rehber[j])
+            BITIR
+        BITIR
+    SON
+
+    EKRANA YAZ(Rehber)
+BITIR
+
+LLM (ChatGPT) Yardim Kayitlari:
+Soru: Hangi siralama algoritmasi uygundur?  
+Cevap: Kucuk listeler icin Bubble Sort yeterlidir.  
+
+Alternatif Cozumler:
+1. Selection Sort kullanmak.  
+2. Buyuk veri icin Quick Sort algoritmasi.
