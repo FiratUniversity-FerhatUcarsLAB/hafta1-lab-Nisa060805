@@ -1,4 +1,28 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No: 250541079
+AD-SOYAD: Nisa Kırtepe
 
-Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Gorev 4: Problem Cozme Algoritmasi  
+Konu: N kisi icin adil pasta paylasimi (Divide & Conquer)
+
+Problem Tanimi:
+Bir pastayi N kisiye esit sekilde paylastirmak istiyoruz. Problem, buyuk bir parcayi kucuk parcalara bolerek cozulecek.
+
+Pseudocode:
+FONKSIYON Paylastir(Pasta, N)
+    EGER N = 1 ISE
+        DON Pasta
+    DEGILSE
+        Yarim <- Pasta / 2
+        Sol <- Paylastir(Yarim, N/2)
+        Sag <- Paylastir(Yarim, N/2)
+        BIRLESTIR(Sol, Sag)
+    BITIR
+BITIR
+
+LLM (ChatGPT) Yardim Kayitlari:
+Soru: Divide & Conquer burada nasil uygulanir?  
+Cevap: Problemi ikiye bol, kucuk parcalari coz, sonra birlestir.
+
+Alternatif Cozumler:
+1. Herkese tek tek esit miktarda dagitma (dogrudan yaklasim).  
+2. Dagitimda agirliga veya ihtiyaca gore farkli oranlar kullanma.
