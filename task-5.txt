@@ -1,5 +1,5 @@
 Öğrenci No: 250541079
-AD-SOYAD: Nisa Kırtepe
+AD-SOYAD: Nisanur Kırtepe
 
 Gorev 5: Uretken Algoritma  
 Konu: Ideal kahve demleme algoritmasi
