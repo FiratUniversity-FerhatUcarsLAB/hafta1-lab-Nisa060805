@@ -1,4 +1,31 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No: 250541079
+AD-SOYAD: Nisa Kırtepe
 
-Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+Gorev 5: Uretken Algoritma  
+Konu: Ideal kahve demleme algoritmasi
+
+Problem Tanimi:
+Amaç, en lezzetli kahveyi demlemek icin ideal sicaklik, sure ve miktar parametrelerine dayali bir algoritma olusturmaktir.
+
+Pseudocode:
+BASLA
+    SuSicakligi <- olc
+    KahveMiktari <- belirle(istege_gore)
+
+    EGER SuSicakligi < 90
+        suyu_isit(95)
+    BITIR
+
+    filtreye_koy(KahveMiktari)
+    suyu_yavas_dok
+    4_dakika_bekle()
+    fincana_dok
+BITIR
+
+LLM (ChatGPT) Yardim Kayitlari:
+Soru: Kahve demleme surecini algoritmaya nasil ceviririm?  
+Cevap: Sicaklik, sure ve miktar gibi parametreleri degisken yap, sonra adimlari sira ile uygula.
+
+Alternatif Cozumler:
+1. Otomatik kahve makinesiyle zamanlayici kullanan versiyon.  
+2. Manuel demleme sure ve sicaklik optimizasyonu yapan versiyon.
